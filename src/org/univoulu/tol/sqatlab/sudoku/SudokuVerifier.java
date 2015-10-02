@@ -28,7 +28,7 @@ public class SudokuVerifier {
 	public static void printSudokuStr(String sudokuStr) {
 		for(int i = 0; i < 81; i++) {
 			if((i+1) % 3 == 0) {
-				System.out.printf("!%s!",""+sudokuStr.charAt(i));
+				System.out.printf("[%s!",""+sudokuStr.charAt(i));
 			} else {
 				System.out.printf("[%s]",""+ sudokuStr.charAt(i));
 			}
