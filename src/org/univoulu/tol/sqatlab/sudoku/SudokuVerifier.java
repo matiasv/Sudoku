@@ -10,7 +10,7 @@ public class SudokuVerifier {
 		} 
 		
 		if(candidateSolution.length() != 81) {
-			return 0;
+			return R1_VIOLATION;
 		}
 		
 		// returns 1 if the candidate solution is correct
