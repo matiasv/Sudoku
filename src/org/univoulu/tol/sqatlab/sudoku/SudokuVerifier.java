@@ -13,12 +13,23 @@ public class SudokuVerifier {
 			return R1_VIOLATION;
 		}
 		
+		//check that the candidate solution contains only digits 
+		//from 1 to 9
+		
+		
 		// returns 1 if the candidate solution is correct
 		return 0;
 	}
 	
-	private static void checkContainsOnlyDigits(String candidateSolution) {
+	private static boolean checkContainsOnlyDigits1To9(String candidateSolution) {
+		String digits = "0123456789";
+		for(char c: candidateSolution.toCharArray()) {
+			if(digits.indexOf(c) == -1) {
+				return false;
+			}
+		}
 		
+		return true;
 	}
 	
 	

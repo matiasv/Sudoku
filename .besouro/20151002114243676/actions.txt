@@ -83,3 +83,17 @@ RefactoringAction 1443776758271 SudokuVerifier.java RENAME checkContains=>void c
 RefactoringAction 1443776759777 SudokuVerifier.java RENAME checkContainsOnlyDigits=>static void checkContainsOnlyDigits() METHOD
 RefactoringAction 1443776764792 SudokuVerifier.java RENAME checkContainsOnlyDigits()=>static void checkContainsOnlyDigits(String) METHOD
 EditAction 1443776767486 SudokuVerifier.java 513 2 3 0
+CompilationAction 1443776967431 SudokuVerifier.java
+CompilationAction 1443776967431 SudokuVerifier.java
+RefactoringAction 1443776970357 SudokuVerifier.java RENAME checkContainsOnlyDigits(String)=>static boolean checkContainsOnlyDigits1(String) METHOD
+RefactoringAction 1443776971363 SudokuVerifier.java RENAME checkContainsOnlyDigits1(String)=>static boolean checkContainsOnlyDigits1To(String) METHOD
+RefactoringAction 1443776972375 SudokuVerifier.java RENAME checkContainsOnlyDigits1To(String)=>static boolean checkContainsOnlyDigits1To9(String) METHOD
+CompilationAction 1443776972464 SudokuVerifier.java
+CompilationAction 1443776972465 SudokuVerifier.java
+CompilationAction 1443776972609 SudokuVerifier.java
+CompilationAction 1443776972609 SudokuVerifier.java
+CompilationAction 1443776976342 SudokuVerifier.java
+CompilationAction 1443776976343 SudokuVerifier.java
+CompilationAction 1443776976498 SudokuVerifier.java
+CompilationAction 1443776976499 SudokuVerifier.java
+CompilationAction 1443777022956 SudokuVerifier.java
