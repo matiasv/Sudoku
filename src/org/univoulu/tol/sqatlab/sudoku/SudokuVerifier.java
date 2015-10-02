@@ -41,7 +41,7 @@ public class SudokuVerifier {
 		}
 	}
 	
-	private String[][] convertToSudokuGrid(String candidateSolution) {
+	private static String[][] convertToSudokuGrid(String candidateSolution) {
 		String[][] res = new String[9][9];
 		int row, col;
 		for(int i = 0; i < 81; i++) {
@@ -53,15 +53,21 @@ public class SudokuVerifier {
 		return res;
 	}
 	
-	private void checkRows(String[][] sudokuGrid) {
+	private static boolean checkRows(String[][] sudokuGrid) {
 		String seenChars = "";
 		
 		//go through all rows
 		for(int i = 0; i < 9; i++) {
 			seenChars = "";
+			//test all individual rows
 			for(int j = 0; j < 9; i++) {
-				String digit = sudokuGrid[]
-				if(seenChars.contains(CharSequence(sudoku)))
+				CharSequence digit = sudokuGrid[i][j];
+				
+				if(seenChars.contains(digit)) {
+					return false;
+				}
+				
+				seenChars += digit;
 			}
 		}
 	}
