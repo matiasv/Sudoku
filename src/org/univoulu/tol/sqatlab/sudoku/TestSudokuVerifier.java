@@ -21,6 +21,7 @@ public class TestSudokuVerifier extends TestCase {
 	public void testSudokuVerifyNullString() {
 		String nullStr = null;
 		int res = verifier.verify(nullStr);
+		assertEquals(res,0);
 	}
 
 }
