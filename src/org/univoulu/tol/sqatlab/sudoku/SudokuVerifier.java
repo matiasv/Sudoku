@@ -12,9 +12,6 @@ public class SudokuVerifier {
 			return 0;
 		}
 		
-		if(candidateSolution.length() == 0) {
-			return 0;
-		}
 		// returns 1 if the candidate solution is correct
 		return 0;
 	}
