@@ -89,7 +89,9 @@ public class SudokuVerifier {
     }
     
     private static boolean checkColumn(String[][] grid, int colIndx) {
+    	String[] expectedDigits = {"1","2","3","4","5","6","7","8","9" };
     	
+    	ArrayList<String> digits = new ArrayList<String>();
     	
     	return false;
     }
