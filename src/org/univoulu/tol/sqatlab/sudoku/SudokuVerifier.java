@@ -7,6 +7,7 @@ import java.util.Collections;
 public class SudokuVerifier {
 	public static final int VALID = 0;
 	public static final int R1_VIOLATION = -1;
+	public static final int R2_VIOLATION =  -2;
 	public static final int R3_VIOLATION = -3;
 	public static final int R4_VIOLATION = -4;
 
