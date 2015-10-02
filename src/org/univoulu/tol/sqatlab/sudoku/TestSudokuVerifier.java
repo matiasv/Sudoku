@@ -34,6 +34,8 @@ public class TestSudokuVerifier extends TestCase {
 		res = verifier.verify(sudokuStrLen80);
 		
 		assertEquals(res,0);
+		
+		//boundary case: len is 82
 	}
 
 }
