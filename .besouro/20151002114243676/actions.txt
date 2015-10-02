@@ -209,3 +209,5 @@ RefactoringAction 1443780156421 SudokuVerifier.java RENAME b(String=>static bool
 RefactoringAction 1443780194942 SudokuVerifier.java ADD import java.util.ArrayList IMPORT
 EditAction 1443780236590 SudokuVerifier.java 2361 6 20 0
 EditAction 1443780277346 SudokuVerifier.java 2405 6 21 0
+RefactoringAction 1443780339566 SudokuVerifier.java ADD import java.util.Collections IMPORT
+EditAction 1443780383759 SudokuVerifier.java 2548 6 23 0

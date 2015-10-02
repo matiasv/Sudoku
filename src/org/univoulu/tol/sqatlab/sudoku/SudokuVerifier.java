@@ -1,6 +1,7 @@
 package org.univoulu.tol.sqatlab.sudoku;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class SudokuVerifier {
 	public static final int VALID = 0;
@@ -83,11 +84,15 @@ public class SudokuVerifier {
 	}
 	
     private static boolean checkRow(String[][] grid,int rowIndx) {
-    	ArrayList<Character> digits = new ArrayList<Character>();
+    	ArrayList<String> digits = new ArrayList<String>();
     	
     	for(int i = 0; i < 9; i++) {
-    		
+    		digits.add(grid[rowIndx][i]);
     	}
+    	
+    	Collections.sort(digits);
+    	
+    	String expectedDigits = "123456789";
     	
     	return false;
     }
