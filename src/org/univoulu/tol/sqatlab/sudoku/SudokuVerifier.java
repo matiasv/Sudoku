@@ -42,11 +42,19 @@ public class SudokuVerifier {
 	}
 	
 	private String[][] convertToSudokuGrid(String candidateSolution) {
-		return null;
+		String[][] res = new String[9][9];
+		int row, col;
+		for(int i = 0; i < 81; i++) {
+			row = i / 9;
+			col = i % 9;
+			res[row][col] = ""+candidateSolution.charAt(i);
+		}
+		
+		return res;
 	}
 	
-	private void checkRows(String candidateSolution) {
-		
+	private void checkRows(String[][] sudokuGrid) {
+		String seenChars = "";
 	}
 	
 	private static boolean checkContainsOnlyDigits1To9(String candidateSolution) {
