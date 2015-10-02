@@ -42,3 +42,7 @@ EditAction 1443775919460 SudokuVerifier.java 360 1 3 0
 RefactoringAction 1443775930581 TestSudokuVerifier.java RENAME testSudokuVerifyEmptyString()=>void testSudokuVerify FIELD
 EditAction 1443775937012 TestSudokuVerifier.java 625 3 7 2
 EditAction 1443775941038 TestSudokuVerifier.java 637 3 8 2
+CompilationAction 1443775941159 TestSudokuVerifier.java
+CompilationAction 1443775945115 TestSudokuVerifier.java
+RefactoringAction 1443776048966 TestSudokuVerifier.java RENAME testSudokuVerifyInvalidLength()=>void testSudokuVerifyLength() METHOD
+EditAction 1443776072465 TestSudokuVerifier.java 765 3 9 2

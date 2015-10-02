@@ -21,11 +21,14 @@ public class TestSudokuVerifier extends TestCase {
 	}
 	
 	@Test
-	public void testSudokuVerifyInvalidLength() {
+	public void testSudokuVerifyLength() {
 		int res;
 		String empty = "";
-		int res = verifier.verify(empty);
+		res = verifier.verify(empty);
 		assertEquals(res,0);
+		
+		String sudokuStrLen80 = "123456789 123456789 123456789 123456789 123456789 123456789 "
+		+ "123456789" + "123456789" + "12345678";
 	}
 
 }
