@@ -287,3 +287,6 @@ UnitTestSessionAction 1443782127462 TestSudokuVerifier OK
 EditAction 1443782143905 TestSudokuVerifier.java 3311 6 34 11
 EditAction 1443782491231 TestSudokuVerifier.java 3311 6 34 11
 EditAction 1443782511399 SudokuVerifier.java 2810 7 25 0
+RefactoringAction 1443782595551 SudokuVerifier.java ADD boolean check FIELD
+RefactoringAction 1443782600576 SudokuVerifier.java RENAME check=>static boolean checkSubGrid() METHOD
+EditAction 1443782614278 SudokuVerifier.java 2901 8 26 0

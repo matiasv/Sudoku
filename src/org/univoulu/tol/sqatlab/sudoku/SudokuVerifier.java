@@ -56,6 +56,11 @@ public class SudokuVerifier {
 			}
 		}
 	}
+	
+	private static boolean checkSubGrid(String[][] sudokuGrid) {
+		
+		return false;
+	}
 
 	private static String[][] convertToSudokuGrid(String candidateSolution) {
 		String[][] res = new String[9][9];
