@@ -22,7 +22,7 @@ public class SudokuVerifier {
 		
 		printSudokuStr(candidateSolution);
 		// returns 0 if the candidate solution is correct
-		return 0;
+		return VALID;
 	}
 	
 	public static void printSudokuStr(String sudokuStr) {
