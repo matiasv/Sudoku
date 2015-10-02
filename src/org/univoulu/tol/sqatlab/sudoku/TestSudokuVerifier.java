@@ -54,6 +54,8 @@ public class TestSudokuVerifier extends TestCase {
 		
 		String invalidStr2 = "123456789123456789123456789123456789123456789123456789"
 				+ "123456789" + "123456789" + "120456789";
+		
+		assertEquals(invalidStr2.length(),81);
 	}
 
 }
