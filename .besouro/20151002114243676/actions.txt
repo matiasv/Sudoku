@@ -198,3 +198,7 @@ RefactoringAction 1443780041850 SudokuVerifier.java RENAME extractRow()=>static 
 EditAction 1443780045311 SudokuVerifier.java 2235 6 18 0
 CompilationAction 1443780045434 SudokuVerifier.java
 EditAction 1443780048007 SudokuVerifier.java 2254 6 19 0
+RefactoringAction 1443780057414 SudokuVerifier.java RENAME extractRow(String=>static String METHOD
+RefactoringAction 1443780059926 SudokuVerifier.java RENAME c(String=>static String METHOD
+RefactoringAction 1443780064945 SudokuVerifier.java RENAME checkRow(String=>static String METHOD
+EditAction 1443780080161 SudokuVerifier.java 2289 6 20 0

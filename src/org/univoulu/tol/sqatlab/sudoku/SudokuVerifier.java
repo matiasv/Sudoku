@@ -81,7 +81,7 @@ public class SudokuVerifier {
 	}
 	
     private static String[] extractRow(String[][] grid,int rowIndx) {
-    	
+    	String rowDigits[] = new String[9];
     	return null;
     }
 	
