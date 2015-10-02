@@ -25,7 +25,7 @@ public class TestSudokuVerifier extends TestCase {
 		int res;
 		String empty = "";
 		res = verifier.verify(empty);
-		assertEquals(res,0);
+		assertEquals(res,SudokuVerifier.R1_VIOLATION);
 		
 		//boundary case: len is 80
 		String sudokuStrLen80 = "123456789123456789123456789123456789123456789123456789 "
@@ -33,7 +33,7 @@ public class TestSudokuVerifier extends TestCase {
 		
 		res = verifier.verify(sudokuStrLen80);
 		
-		assertEquals(res,0);
+		assertEquals(res,SudokuVerifier.R1_VIOLATION);
 		
 		//boundary case: len is 82
 	}
