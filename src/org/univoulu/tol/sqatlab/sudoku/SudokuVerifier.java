@@ -3,6 +3,7 @@ package org.univoulu.tol.sqatlab.sudoku;
 public class SudokuVerifier {
 	public static final int VALID = 0;
 	public static final int R1_VIOLATION = -1;
+	public static final int R3_VIOLATION = -3;
 	
 	public int verify(String candidateSolution) {
 		//simple failure cases first
@@ -23,6 +24,11 @@ public class SudokuVerifier {
 		String[][] sudokuGrid = convertToSudokuGrid(candidateSolution);
 		
 		printSudokuStr(candidateSolution);
+		
+		if(!checkRows(sudokuGrid)) {
+			
+		}
+		
 		// returns 0 if the candidate solution is correct
 		return VALID;
 	}

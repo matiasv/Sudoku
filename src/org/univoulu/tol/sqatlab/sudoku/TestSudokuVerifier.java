@@ -64,10 +64,19 @@ public class TestSudokuVerifier extends TestCase {
 	
 	@Test
 	public void testSudokuInvalidRows() {
-		String invalidSudoku = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
+		//String invalidSudoku = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
+		String invalidRows1 = ""
+	    + "111111111"
+		+ "222222222"
+	    + "333333333"
+		+ "444444444"
+	    + "555555555"
+		+ "666666666"
+	    + "777777777"
+		+ "888888888"
+	    + "999999999";
 		
-		int res = verifier.verify(invalidSudoku);
-		
+		int res = verifier.verify(invalidRows1);		
 		this.assertNotSame(res, SudokuVerifier.VALID);
 	}
 
