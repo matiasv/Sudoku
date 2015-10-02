@@ -22,6 +22,7 @@ public class TestSudokuVerifier extends TestCase {
 	
 	@Test
 	public void testSudokuVerifyInvalidLength() {
+		int res;
 		String empty = "";
 		int res = verifier.verify(empty);
 		assertEquals(res,0);
