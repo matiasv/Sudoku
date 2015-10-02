@@ -15,20 +15,24 @@ public class SudokuVerifier {
 		
 		//check that the candidate solution contains only digits 
 		//from 1 to 9
-		
+		if(!checkContainsOnlyDigits1To9(candidateSolution)) {
+			return R1_VIOLATION;
+		}
 		
 		// returns 0 if the candidate solution is correct
 		return 0;
 	}
 	
+	public static void printSudokuStr(String sudokuStr) {
+		
+	}
+	
 	private static boolean checkContainsOnlyDigits1To9(String candidateSolution) {
-		String digits = "0123456789";
+		String digits = "123456789";
 		for(char c: candidateSolution.toCharArray()) {
-			if(digits.indexOf(String(c) == -1) {
+			if(digits.indexOf("" + c) == -1) {
 				return false;
 			}
-			
-			
 		}
 		
 		return true;

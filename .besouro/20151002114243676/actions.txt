@@ -105,3 +105,13 @@ EditAction 1443777523324 TestSudokuVerifier.java 1775 4 21 7
 UnitTestCaseAction 1443777527683 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443777527684 TestSudokuVerifier FAIL
 EditAction 1443777690262 SudokuVerifier.java 786 2 3 0
+CompilationAction 1443777690508 SudokuVerifier.java
+CompilationAction 1443777690509 SudokuVerifier.java
+CompilationAction 1443777729770 SudokuVerifier.java
+CompilationAction 1443777729771 SudokuVerifier.java
+UnitTestCaseAction 1443777735154 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443777735155 TestSudokuVerifier FAIL
+UnitTestCaseAction 1443777800297 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443777800298 TestSudokuVerifier OK
+RefactoringAction 1443777989541 SudokuVerifier.java ADD static void printSudokuStr(String) METHOD
+EditAction 1443777990241 SudokuVerifier.java 923 3 7 0
