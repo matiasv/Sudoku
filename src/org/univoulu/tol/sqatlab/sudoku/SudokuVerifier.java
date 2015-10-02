@@ -93,6 +93,10 @@ public class SudokuVerifier {
     	
     	ArrayList<String> digits = new ArrayList<String>();
     	
+    	for(int i = 0; i < 9; i++) {
+    		digits.add(grid[i][colIndx]);
+    	}
+    	
     	return false;
     }
 	

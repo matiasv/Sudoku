@@ -251,3 +251,4 @@ RefactoringAction 1443780840084 SudokuVerifier.java RENAME checkC=>static boolea
 RefactoringAction 1443780844099 SudokuVerifier.java RENAME checkColumn()=>static boolean checkColumn(String METHOD
 EditAction 1443780848490 SudokuVerifier.java 2533 7 23 0
 EditAction 1443780857895 SudokuVerifier.java 2663 7 25 0
+EditAction 1443780915700 SudokuVerifier.java 2750 7 26 0
