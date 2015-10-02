@@ -39,6 +39,10 @@ public class SudokuVerifier {
 		}
 	}
 	
+	private void checkRows(String candidateSolution) {
+		
+	}
+	
 	private static boolean checkContainsOnlyDigits1To9(String candidateSolution) {
 		String digits = "123456789";
 		for(char c: candidateSolution.toCharArray()) {

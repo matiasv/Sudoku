@@ -146,3 +146,7 @@ EditAction 1443778675251 SudokuVerifier.java 1262 3 9 0
 UnitTestCaseAction 1443778682077 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443778682078 TestSudokuVerifier FAIL
 EditAction 1443778694537 SudokuVerifier.java 1262 3 9 0
+UnitTestCaseAction 1443778701407 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443778701407 TestSudokuVerifier FAIL
+RefactoringAction 1443778756810 SudokuVerifier.java ADD void checkRows(String) METHOD
+EditAction 1443778776567 SudokuVerifier.java 1326 4 9 0
