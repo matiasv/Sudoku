@@ -28,20 +28,25 @@ public class TestSudokuVerifier extends TestCase {
 		assertEquals(res,SudokuVerifier.R1_VIOLATION);
 		
 		//boundary case: len is 80
-		String sudokuStrLen80 = "123456789123456789123456789123456789123456789123456789 "
+		String sudokuStrLen80 = "123456789123456789123456789123456789123456789123456789"
 		+ "123456789" + "123456789" + "12345678";
-		
+				
 		res = verifier.verify(sudokuStrLen80);
 		
 		assertEquals(res,SudokuVerifier.R1_VIOLATION);
 		
 		//boundary case: len is 82
-		String sudokuStrLen82 = "123456789123456789123456789123456789123456789123456789 "
+		String sudokuStrLen82 = "123456789123456789123456789123456789123456789123456789"
 				+ "123456789" + "123456789" + "1234567891";
 		
 		res = verifier.verify(sudokuStrLen80);
 		
 		assertEquals(res,SudokuVerifier.R1_VIOLATION);
+	}
+	
+	@Test
+	public void testSudokuVerifyNonDigitInput() {
+		
 	}
 
 }

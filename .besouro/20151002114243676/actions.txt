@@ -62,3 +62,12 @@ EditAction 1443776414776 TestSudokuVerifier.java 976 3 11 3
 EditAction 1443776434752 TestSudokuVerifier.java 1110 3 12 3
 EditAction 1443776446224 TestSudokuVerifier.java 1156 3 13 3
 EditAction 1443776462144 TestSudokuVerifier.java 1210 3 14 4
+UnitTestCaseAction 1443776473521 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443776473522 TestSudokuVerifier FAIL
+UnitTestCaseAction 1443776571107 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443776571108 TestSudokuVerifier OK
+RefactoringAction 1443776631508 TestSudokuVerifier.java ADD void testSudokuVerify FIELD
+RefactoringAction 1443776638029 TestSudokuVerifier.java RENAME testSudokuVerify=>void testSudokuVerifyNonDigitI FIELD
+RefactoringAction 1443776639539 TestSudokuVerifier.java RENAME testSudokuVerifyNonDigitI=>void testSudokuVerifyNonDigitInput FIELD
+RefactoringAction 1443776642551 TestSudokuVerifier.java RENAME testSudokuVerifyNonDigitInput=>void testSudokuVerifyNonDigitInput() METHOD
+EditAction 1443776643405 TestSudokuVerifier.java 1277 4 14 4
