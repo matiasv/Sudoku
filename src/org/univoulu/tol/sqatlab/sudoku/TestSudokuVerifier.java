@@ -19,5 +19,10 @@ public class TestSudokuVerifier extends TestCase {
 		int res = verifier.verify(nullStr);
 		assertEquals(res,0);
 	}
+	
+	@Test
+	public void testSudokuVerifyEmptyString() {
+		String empty = "";
+	}
 
 }
