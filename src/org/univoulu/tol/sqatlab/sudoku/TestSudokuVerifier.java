@@ -89,6 +89,8 @@ public class TestSudokuVerifier extends TestCase {
 			    + "777777777"
 			    + "888888888"
 			    + "999999999";
+		res = verifier.verify(invalidRows2);	
+		this.assertEquals(res, SudokuVerifier.R3_VIOLATION);
 	}
 
 }
