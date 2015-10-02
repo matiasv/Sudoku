@@ -19,3 +19,4 @@ RefactoringAction 1443775668769 TestSudokuVerifier.java ADD import junit.framewo
 CompilationAction 1443775670380 TestSudokuVerifier.java
 CompilationAction 1443775670380 TestSudokuVerifier.java
 EditAction 1443775681526 TestSudokuVerifier.java 459 3 2 0
+EditAction 1443775694636 TestSudokuVerifier.java 483 3 3 0
