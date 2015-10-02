@@ -10,3 +10,12 @@ RefactoringAction 1443775424234 TestSudokuVerifier.java ADD SudokuVerifier verif
 EditAction 1443775425315 TestSudokuVerifier.java 323 2 1 0
 RefactoringAction 1443775576379 TestSudokuVerifier.java ADD void setUp() METHOD
 EditAction 1443775586023 TestSudokuVerifier.java 416 3 2 0
+CompilationAction 1443775586264 TestSudokuVerifier.java
+CompilationAction 1443775642118 TestSudokuVerifier.java
+CompilationAction 1443775651042 TestSudokuVerifier.java
+CompilationAction 1443775651202 TestSudokuVerifier.java
+CompilationAction 1443775651202 TestSudokuVerifier.java
+RefactoringAction 1443775668769 TestSudokuVerifier.java ADD import junit.framework.TestCase IMPORT
+CompilationAction 1443775670380 TestSudokuVerifier.java
+CompilationAction 1443775670380 TestSudokuVerifier.java
+EditAction 1443775681526 TestSudokuVerifier.java 459 3 2 0
