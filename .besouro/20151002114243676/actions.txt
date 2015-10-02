@@ -196,3 +196,5 @@ RefactoringAction 1443780030805 SudokuVerifier.java ADD String FIELD
 RefactoringAction 1443780033320 SudokuVerifier.java RENAME ext=>static String METHOD
 RefactoringAction 1443780041850 SudokuVerifier.java RENAME extractRow()=>static String METHOD
 EditAction 1443780045311 SudokuVerifier.java 2235 6 18 0
+CompilationAction 1443780045434 SudokuVerifier.java
+EditAction 1443780048007 SudokuVerifier.java 2254 6 19 0
