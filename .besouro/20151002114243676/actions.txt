@@ -52,3 +52,5 @@ UnitTestCaseAction 1443776121096 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443776121097 TestSudokuVerifier OK
 EditAction 1443776147052 TestSudokuVerifier.java 864 3 11 3
 EditAction 1443776280468 TestSudokuVerifier.java 898 3 11 3
+RefactoringAction 1443776341064 SudokuVerifier.java ADD int R1_ FIELD
+EditAction 1443776351030 SudokuVerifier.java 406 1 3 0

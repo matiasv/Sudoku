@@ -1,7 +1,8 @@
 package org.univoulu.tol.sqatlab.sudoku;
 
 public class SudokuVerifier {
-
+	public static final int R1_VIOLATION = -1;
+	
 	public int verify(String candidateSolution) {
 		//simple failure cases first
 		if(null == candidateSolution) {
