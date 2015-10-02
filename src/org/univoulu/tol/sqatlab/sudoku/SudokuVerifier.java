@@ -1,5 +1,7 @@
 package org.univoulu.tol.sqatlab.sudoku;
 
+import java.util.ArrayList;
+
 public class SudokuVerifier {
 	public static final int VALID = 0;
 	public static final int R1_VIOLATION = -1;
@@ -80,14 +82,12 @@ public class SudokuVerifier {
 		return true;
 	}
 	
-    private static String[] extractRow(String[][] grid,int rowIndx) {
-    	String rowDigits[] = new String[9];
+    private static boolean checkRow(String[][] grid,int rowIndx) {
+    	ArrayList<Character> digits = new ArrayList<Character>();
     	
-    	for(int i = 0; i < 9; i++) {
-    		
-    	}
     	
-    	return null;
+    	
+    	return false;
     }
 	
 	private static boolean checkContainsOnlyDigits1To9(String candidateSolution) {
