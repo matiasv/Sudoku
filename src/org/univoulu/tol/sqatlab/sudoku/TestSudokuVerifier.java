@@ -38,6 +38,8 @@ public class TestSudokuVerifier extends TestCase {
 		//boundary case: len is 82
 		String sudokuStrLen82 = "123456789123456789123456789123456789123456789123456789 "
 				+ "123456789" + "123456789" + "1234567891";
+		
+		res = verifier.verify(sudokuStrLen80);
 	}
 
 }
