@@ -28,9 +28,7 @@ public class SudokuVerifier {
 	public static void printSudokuStr(String sudokuStr) {
 		for(int i = 0; i < 81; i++) {
 			System.out.printf("[%s]",""+ sudokuStr.charAt(i));
-			if(i > 1 && (i-1) % 9 == 0) {
-				System.out.printf("%s","\n");
-			}
+			
 		}
 	}
 	
