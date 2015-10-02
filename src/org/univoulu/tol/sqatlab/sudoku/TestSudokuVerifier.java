@@ -46,7 +46,8 @@ public class TestSudokuVerifier extends TestCase {
 	
 	@Test
 	public void testSudokuVerifyNonDigitInput() {
-		
+		String sudokuStr = "123456789123456789123456789123456789123456789123456789"
+				+ "123456789" + "123456789}" + "a2345678";
 	}
 
 }
