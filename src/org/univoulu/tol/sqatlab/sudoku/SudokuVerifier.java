@@ -8,6 +8,10 @@ public class SudokuVerifier {
 			return 0;
 		} 
 		
+		if(candidateSolution.length() != 81) {
+			return 0;
+		}
+		
 		if(candidateSolution.length() == 0) {
 			return 0;
 		}
