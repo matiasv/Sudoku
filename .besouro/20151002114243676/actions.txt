@@ -122,3 +122,5 @@ EditAction 1443778112080 SudokuVerifier.java 1121 3 9 0
 RefactoringAction 1443778144724 TestSudokuVerifier.java ADD void testSudokuInvalidRows FIELD
 RefactoringAction 1443778154291 TestSudokuVerifier.java RENAME testSudokuInvalidRows=>void testSudokuInvalidRows() METHOD
 EditAction 1443778165771 TestSudokuVerifier.java 1945 5 22 7
+RefactoringAction 1443778201817 SudokuVerifier.java ADD int VALID FIELD
+EditAction 1443778205219 SudokuVerifier.java 1158 3 9 0
