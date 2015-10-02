@@ -57,6 +57,9 @@ public class SudokuVerifier {
 		String seenChars = "";
 		
 		//go through all rows
+		for(int i = 0; i < 9; i++) {
+			
+		}
 	}
 	
 	private static boolean checkContainsOnlyDigits1To9(String candidateSolution) {
