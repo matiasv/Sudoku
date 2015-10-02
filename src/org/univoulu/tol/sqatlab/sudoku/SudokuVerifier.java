@@ -55,6 +55,8 @@ public class SudokuVerifier {
 	
 	private void checkRows(String[][] sudokuGrid) {
 		String seenChars = "";
+		
+		//go through all rows
 	}
 	
 	private static boolean checkContainsOnlyDigits1To9(String candidateSolution) {
