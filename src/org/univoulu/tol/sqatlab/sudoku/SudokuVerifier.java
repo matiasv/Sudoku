@@ -1,6 +1,7 @@
 package org.univoulu.tol.sqatlab.sudoku;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 
 public class SudokuVerifier {
@@ -68,8 +69,13 @@ public class SudokuVerifier {
 		//go through all rows
 		for(int i = 0; i < 9; i++) {
 			seenDigits = "";
+			
+			if(!checkRow(sudokuGrid,i)) {
+				return false;
+			}
+			
 			//test all individual rows
-			for(int j = 0; j < 9; j++) {
+			/*for(int j = 0; j < 9; j++) {
 				CharSequence digit = sudokuGrid[i][j];
 				
 				if(seenDigits.contains(digit)) {
@@ -77,13 +83,15 @@ public class SudokuVerifier {
 				}
 				
 				seenDigits += digit;
-			}
+			}*/
 		}
 		
 		return true;
 	}
 	
     private static boolean checkRow(String[][] grid,int rowIndx) {
+    	String[] expectedDigits = {"1","2","3","4","5","6","7","8","9" };
+    	
     	ArrayList<String> digits = new ArrayList<String>();
     	
     	for(int i = 0; i < 9; i++) {
@@ -92,10 +100,7 @@ public class SudokuVerifier {
     	
     	Collections.sort(digits);
     	
-    	String expectedDigits = "123456789";
-    	
-    	
-    	return false;
+    	return Arrays.equals(digits.toArray(),expectedDigits);
     }
 	
 	private static boolean checkContainsOnlyDigits1To9(String candidateSolution) {

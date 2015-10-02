@@ -212,3 +212,26 @@ EditAction 1443780277346 SudokuVerifier.java 2405 6 21 0
 RefactoringAction 1443780339566 SudokuVerifier.java ADD import java.util.Collections IMPORT
 EditAction 1443780383759 SudokuVerifier.java 2548 6 23 0
 EditAction 1443780387104 SudokuVerifier.java 2555 6 23 0
+RefactoringAction 1443780404314 SudokuVerifier.java ADD import java.util.Arrays IMPORT
+CompilationAction 1443780438838 SudokuVerifier.java
+CompilationAction 1443780466644 SudokuVerifier.java
+CompilationAction 1443780466796 SudokuVerifier.java
+RefactoringAction 1443780479701 SudokuVerifier.java REMOVE checkContainsOnlyDigits1To9(String) METHOD
+RefactoringAction 1443780479702 SudokuVerifier.java REMOVE checkRow(String METHOD
+RefactoringAction 1443780481720 SudokuVerifier.java ADD static boolean checkRow(String METHOD
+RefactoringAction 1443780481721 SudokuVerifier.java ADD static boolean checkContainsOnlyDigits1To9(String) METHOD
+CompilationAction 1443780482848 SudokuVerifier.java
+CompilationAction 1443780483003 SudokuVerifier.java
+CompilationAction 1443780586245 SudokuVerifier.java
+CompilationAction 1443780586402 SudokuVerifier.java
+CompilationAction 1443780586402 SudokuVerifier.java
+CompilationAction 1443780586402 SudokuVerifier.java
+CompilationAction 1443780586402 SudokuVerifier.java
+CompilationAction 1443780591941 SudokuVerifier.java
+CompilationAction 1443780591941 SudokuVerifier.java
+CompilationAction 1443780591942 SudokuVerifier.java
+CompilationAction 1443780591942 SudokuVerifier.java
+CompilationAction 1443780592097 SudokuVerifier.java
+CompilationAction 1443780604508 SudokuVerifier.java
+CompilationAction 1443780604672 SudokuVerifier.java
+EditAction 1443780630619 SudokuVerifier.java 2717 6 23 0
