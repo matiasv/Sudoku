@@ -290,3 +290,7 @@ EditAction 1443782511399 SudokuVerifier.java 2810 7 25 0
 RefactoringAction 1443782595551 SudokuVerifier.java ADD boolean check FIELD
 RefactoringAction 1443782600576 SudokuVerifier.java RENAME check=>static boolean checkSubGrid() METHOD
 EditAction 1443782614278 SudokuVerifier.java 2901 8 26 0
+RefactoringAction 1443782634691 SudokuVerifier.java RENAME checkSubGrid(String=>static boolean checkSubGrids(String METHOD
+RefactoringAction 1443782644713 SudokuVerifier.java ADD static boolean checkSubGrid() METHOD
+RefactoringAction 1443782653757 SudokuVerifier.java RENAME checkSubGrid()=>static boolean checkSubGrid(String METHOD
+RefactoringAction 1443782655776 SudokuVerifier.java RENAME checkSubGrid(String=>static boolean checkSubGrid(String METHOD
