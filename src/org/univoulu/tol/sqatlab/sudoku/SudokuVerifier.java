@@ -73,17 +73,6 @@ public class SudokuVerifier {
 			if(!checkRow(sudokuGrid,i)) {
 				return false;
 			}
-			
-			//test all individual rows
-			/*for(int j = 0; j < 9; j++) {
-				CharSequence digit = sudokuGrid[i][j];
-				
-				if(seenDigits.contains(digit)) {
-					return false;
-				}
-				
-				seenDigits += digit;
-			}*/
 		}
 		
 		return true;
