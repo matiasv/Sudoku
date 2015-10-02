@@ -70,6 +70,8 @@ public class SudokuVerifier {
 				seenDigits += digit;
 			}
 		}
+		
+		return true;
 	}
 	
 	private static boolean checkContainsOnlyDigits1To9(String candidateSolution) {
