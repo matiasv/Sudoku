@@ -190,3 +190,9 @@ EditAction 1443779829299 SudokuVerifier.java 2147 5 18 0
 UnitTestCaseAction 1443779858891 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443779858892 TestSudokuVerifier FAIL
 EditAction 1443779986287 SudokuVerifier.java 2147 5 18 0
+UnitTestCaseAction 1443779990964 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443779990965 TestSudokuVerifier OK
+RefactoringAction 1443780030805 SudokuVerifier.java ADD String FIELD
+RefactoringAction 1443780033320 SudokuVerifier.java RENAME ext=>static String METHOD
+RefactoringAction 1443780041850 SudokuVerifier.java RENAME extractRow()=>static String METHOD
+EditAction 1443780045311 SudokuVerifier.java 2235 6 18 0

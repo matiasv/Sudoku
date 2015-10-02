@@ -80,6 +80,10 @@ public class SudokuVerifier {
 		return true;
 	}
 	
+    private static String[] extractRow(String[][] grid,int rowIndx) {
+    	
+    }
+	
 	private static boolean checkContainsOnlyDigits1To9(String candidateSolution) {
 		String digits = "123456789";
 		for(char c: candidateSolution.toCharArray()) {
