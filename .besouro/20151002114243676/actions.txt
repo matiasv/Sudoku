@@ -6,3 +6,5 @@ RefactoringAction 1443775387632 TestSudokuVerifier.java RENAME testSudokuVerify=
 RefactoringAction 1443775390142 TestSudokuVerifier.java RENAME testSudokuVerifyNull=>void testSudokuVerifyNullString FIELD
 RefactoringAction 1443775393160 TestSudokuVerifier.java RENAME testSudokuVerifyNullString=>void testSudokuVerifyNullString() METHOD
 EditAction 1443775399226 TestSudokuVerifier.java 280 2 1 0
+RefactoringAction 1443775424234 TestSudokuVerifier.java ADD SudokuVerifier verifier FIELD
+EditAction 1443775425315 TestSudokuVerifier.java 323 2 1 0
