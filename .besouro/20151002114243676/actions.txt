@@ -22,3 +22,7 @@ EditAction 1443775681526 TestSudokuVerifier.java 459 3 2 0
 EditAction 1443775694636 TestSudokuVerifier.java 483 3 3 0
 EditAction 1443775715827 TestSudokuVerifier.java 522 3 4 0
 EditAction 1443775726700 TestSudokuVerifier.java 546 3 5 1
+UnitTestCaseAction 1443775742513 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443775742514 TestSudokuVerifier FAIL
+RefactoringAction 1443775770247 TestSudokuVerifier.java REMOVE test() METHOD
+EditAction 1443775771435 TestSudokuVerifier.java 479 2 4 1

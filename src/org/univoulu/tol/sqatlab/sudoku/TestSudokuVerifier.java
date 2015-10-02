@@ -12,10 +12,6 @@ public class TestSudokuVerifier extends TestCase {
 		verifier = new SudokuVerifier();
 	}
 
-	@Test
-	public void test() {
-		fail("Not yet implemented");
-	}
 
 	@Test
 	public void testSudokuVerifyNullString() {
