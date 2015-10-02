@@ -19,6 +19,7 @@ public class SudokuVerifier {
 			return R1_VIOLATION;
 		}
 		
+		printSudokuStr(candidateSolution);
 		// returns 0 if the candidate solution is correct
 		return 0;
 	}
