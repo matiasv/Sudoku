@@ -6,7 +6,7 @@ public class SudokuVerifier {
 	public int verify(String candidateSolution) {
 		//simple failure cases first
 		if(null == candidateSolution) {
-			return 0;
+			return R1_VIOLATION;
 		} 
 		
 		if(candidateSolution.length() != 81) {
