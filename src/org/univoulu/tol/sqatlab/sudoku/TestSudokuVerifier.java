@@ -23,6 +23,7 @@ public class TestSudokuVerifier extends TestCase {
 	@Test
 	public void testSudokuVerifyEmptyString() {
 		String empty = "";
+		int res = verifier.verify(empty);
 	}
 
 }
