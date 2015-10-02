@@ -54,20 +54,20 @@ public class SudokuVerifier {
 	}
 	
 	private static boolean checkRows(String[][] sudokuGrid) {
-		String seenChars = "";
+		String seenDigits = "";
 		
 		//go through all rows
 		for(int i = 0; i < 9; i++) {
-			seenChars = "";
+			seenDigits = "";
 			//test all individual rows
 			for(int j = 0; j < 9; i++) {
 				CharSequence digit = sudokuGrid[i][j];
 				
-				if(seenChars.contains(digit)) {
+				if(seenDigits.contains(digit)) {
 					return false;
 				}
 				
-				seenChars += digit;
+				seenDigits += digit;
 			}
 		}
 	}
