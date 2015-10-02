@@ -66,7 +66,7 @@ public class SudokuVerifier {
 		for(int i = 0; i < 9; i++) {
 			seenDigits = "";
 			//test all individual rows
-			for(int j = 0; j < 9; i++) {
+			for(int j = 0; j < 9; j++) {
 				CharSequence digit = sudokuGrid[i][j];
 				
 				if(seenDigits.contains(digit)) {
