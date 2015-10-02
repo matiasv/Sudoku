@@ -264,3 +264,6 @@ UnitTestCaseAction 1443781131600 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443781131600 TestSudokuVerifier OK
 RefactoringAction 1443781226482 TestSudokuVerifier.java REMOVE testSudokuValidRows() METHOD
 EditAction 1443781380049 SudokuVerifier.java 2512 6 22 0
+RefactoringAction 1443781395079 SudokuVerifier.java ADD boolean checkCols FIELD
+RefactoringAction 1443781399090 SudokuVerifier.java RENAME checkCols=>static boolean checkCols() METHOD
+EditAction 1443781404532 SudokuVerifier.java 2583 7 22 0

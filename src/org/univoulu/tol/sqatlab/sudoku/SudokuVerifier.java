@@ -64,6 +64,10 @@ public class SudokuVerifier {
 		return res;
 	}
 	
+	private static boolean checkCols(String[][] sudokuGrid) {
+		
+	}
+	
 	private static boolean checkRows(String[][] sudokuGrid) {
 		for(int i = 0; i < 9; i++) {
 			
