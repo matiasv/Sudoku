@@ -12,7 +12,6 @@ public class TestSudokuVerifier extends TestCase {
 		verifier = new SudokuVerifier();
 	}
 
-
 	@Test
 	public void testSudokuVerifyNullString() {
 		String nullStr = null;
@@ -62,10 +61,11 @@ public class TestSudokuVerifier extends TestCase {
 		assertEquals(res,SudokuVerifier.R1_VIOLATION);
 	}
 	
-	
 	@Test
 	public void testSudokuInvalidCols() {
-		//first col is invalid
+		int res;
+
+		//only invalid columns!
 		String invalidCols1 = ""
 				+ "123456789"
 				+ "123456789"
@@ -76,8 +76,9 @@ public class TestSudokuVerifier extends TestCase {
 				+ "123456789"
 				+ "123456789"
 				+ "123456789";
-		int res = verifier.verify(invalidCols1);
-				
+		
+		res = verifier.verify(invalidCols1);
+		this.assertEquals(res, SudokuVerifier.R4_VIOLATION);
 	}
 	
 	@Test

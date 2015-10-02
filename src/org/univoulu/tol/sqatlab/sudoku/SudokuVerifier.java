@@ -33,6 +33,10 @@ public class SudokuVerifier {
 		if (!checkRows(sudokuGrid)) {
 			return R3_VIOLATION;
 		}
+		
+		if(!checkCols(sudokuGrid)) {
+			return R4_VIOLATION;
+		}
 
 		// returns 0 if the candidate solution is correct
 		return VALID;
