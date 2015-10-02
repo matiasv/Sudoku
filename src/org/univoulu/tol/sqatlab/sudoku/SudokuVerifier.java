@@ -17,5 +17,9 @@ public class SudokuVerifier {
 		return 0;
 	}
 	
+	private static void checkContainsOnlyDigits(String candidateSolution) {
+		
+	}
+	
 	
 }

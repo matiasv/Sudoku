@@ -74,3 +74,12 @@ EditAction 1443776643405 TestSudokuVerifier.java 1277 4 14 4
 EditAction 1443776681023 TestSudokuVerifier.java 1400 4 15 4
 EditAction 1443776695630 TestSudokuVerifier.java 1445 4 16 4
 EditAction 1443776717152 TestSudokuVerifier.java 1495 4 17 5
+UnitTestCaseAction 1443776723707 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443776723707 TestSudokuVerifier FAIL
+RefactoringAction 1443776737744 SudokuVerifier.java ADD void check FIELD
+RefactoringAction 1443776744758 SudokuVerifier.java RENAME check=>boolean checkC FIELD
+RefactoringAction 1443776746764 SudokuVerifier.java RENAME checkC=>boolean checkContains FIELD
+RefactoringAction 1443776758271 SudokuVerifier.java RENAME checkContains=>void checkContainsOnlyDigits FIELD
+RefactoringAction 1443776759777 SudokuVerifier.java RENAME checkContainsOnlyDigits=>static void checkContainsOnlyDigits() METHOD
+RefactoringAction 1443776764792 SudokuVerifier.java RENAME checkContainsOnlyDigits()=>static void checkContainsOnlyDigits(String) METHOD
+EditAction 1443776767486 SudokuVerifier.java 513 2 3 0
