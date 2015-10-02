@@ -58,8 +58,10 @@ public class SudokuVerifier {
 		
 		//go through all rows
 		for(int i = 0; i < 9; i++) {
+			seenChars = "";
 			for(int j = 0; j < 9; i++) {
-				
+				String digit = sudokuGrid[]
+				if(seenChars.contains(CharSequence(sudoku)))
 			}
 		}
 	}
