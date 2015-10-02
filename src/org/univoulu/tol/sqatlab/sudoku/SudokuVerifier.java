@@ -3,6 +3,7 @@ package org.univoulu.tol.sqatlab.sudoku;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.HashMap;
 
 public class SudokuVerifier {
 	public static final int VALID = 0;
@@ -11,6 +12,43 @@ public class SudokuVerifier {
 	public static final int R3_VIOLATION = -3;
 	public static final int R4_VIOLATION = -4;
 
+	private static class IntPair {
+		private int first;
+		private int second;
+		
+		public IntPair(int first, int second) {
+			this.first = first;
+			this.second = second;
+		}
+		
+		public int getFirst() { return first; }
+		public int getSecond() { return second; }
+	};
+	
+	private static HashMap<Integer,IntPair> subGridCoordinates;
+	
+	/*
+	 *    0  1  2  3  4  5  6  7  8
+	 * 0| 0  0  0  1  1  1  2  2  2  
+	 * 1| 0  0  0  1  1  1  2  2  2
+	 * 2| 0  0  0  1  1  1  2  2  2
+	 * 3| 3  3  3  4  4  4  5  5  5
+	 * 4| 3  3  3  4  4  4  5  5  5
+	 * 5| 3  3  3  4  4  4  5  5  5
+	 * 6| 6  6  6  7  7  7  8  8  8
+	 * 7| 6  6  6  7  7  7  8  8  8
+	 * 8| 6  6  6  7  7  7  8  8  8
+	 */
+	static {
+		subGridCoordinates = new HashMap<Integer,IntPair>();
+		subGridCoordinates.put(0, new IntPair(0,0));
+		subGridCoordinates.put(1, new IntPair(0,3));
+		subGridCoordinates.put(2,new IntPair(0,6));
+		subGridCoordinates.put(3, new IntPair(3,0));
+		subGridCoordinates.put(4, new IntPair(3,3));
+	}
+	
+	
 	public int verify(String candidateSolution) {
 		// simple failure cases first
 		if (null == candidateSolution) {
@@ -61,6 +99,9 @@ public class SudokuVerifier {
 		
 		return false;
 	}
+	
+	
+	
 	/*
 	 *    0  1  2  3  4  5  6  7  8
 	 * 0| 0  0  0  1  1  1  2  2  2  
