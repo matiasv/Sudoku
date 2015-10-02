@@ -20,6 +20,7 @@ public class TestSudokuVerifier extends TestCase {
 	@Test
 	public void testSudokuVerifyNullString() {
 		String nullStr = null;
+		int res = verifier.verify(nullStr);
 	}
 
 }
