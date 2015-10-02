@@ -64,11 +64,7 @@ public class SudokuVerifier {
 	}
 	
 	private static boolean checkRows(String[][] sudokuGrid) {
-		String seenDigits = "";
-		
-		//go through all rows
 		for(int i = 0; i < 9; i++) {
-			seenDigits = "";
 			
 			if(!checkRow(sudokuGrid,i)) {
 				return false;
@@ -90,6 +86,12 @@ public class SudokuVerifier {
     	Collections.sort(digits);
     	
     	return Arrays.equals(digits.toArray(),expectedDigits);
+    }
+    
+    private static boolean checkColumn(String[][] grid, int colIndx) {
+    	
+    	
+    	return false;
     }
 	
 	private static boolean checkContainsOnlyDigits1To9(String candidateSolution) {
