@@ -58,6 +58,8 @@ public class TestSudokuVerifier extends TestCase {
 		assertEquals(invalidStr2.length(),81);
 		
 		res = verifier.verify(invalidStr2);
+		
+		assertEquals(res,SudokuVerifier.R1_VIOLATION);
 	}
 
 }
