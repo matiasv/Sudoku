@@ -62,6 +62,24 @@ public class TestSudokuVerifier extends TestCase {
 		assertEquals(res,SudokuVerifier.R1_VIOLATION);
 	}
 	
+	
+	@Test
+	public void testSudokuInvalidCols() {
+		//first col is invalid
+		String invalidCols1 = ""
+				+ "123456789"
+				+ "123456789"
+				+ "123456789"
+				+ "123456789"
+				+ "123456789"
+				+ "123456789"
+				+ "123456789"
+				+ "123456789"
+				+ "123456789";
+		int res = verifier.verify(invalidCols1);
+				
+	}
+	
 	@Test
 	public void testSudokuInvalidRows() {
 		//String invalidSudoku = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
@@ -105,7 +123,6 @@ public class TestSudokuVerifier extends TestCase {
 		
 		res = verifier.verify(invalidRows3);	
 		this.assertEquals(res, SudokuVerifier.R3_VIOLATION);
-		
 	}
 
 }

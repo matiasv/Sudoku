@@ -8,6 +8,7 @@ public class SudokuVerifier {
 	public static final int VALID = 0;
 	public static final int R1_VIOLATION = -1;
 	public static final int R3_VIOLATION = -3;
+	public static final int R4_VIOLATION = -4;
 	
 	public int verify(String candidateSolution) {
 		//simple failure cases first
@@ -66,7 +67,7 @@ public class SudokuVerifier {
 	private static boolean checkRows(String[][] sudokuGrid) {
 		for(int i = 0; i < 9; i++) {
 			
-			if(!checkRow(sudokuGrid,i)) {
+			if(!checkRowOrColumn(sudokuGrid,i,true)) {
 				return false;
 			}
 		}
@@ -74,31 +75,21 @@ public class SudokuVerifier {
 		return true;
 	}
 	
-    private static boolean checkRow(String[][] grid,int rowIndx) {
-    	String[] expectedDigits = {"1","2","3","4","5","6","7","8","9" };
-    	
-    	ArrayList<String> digits = new ArrayList<String>();
-    	
-    	for(int i = 0; i < 9; i++) {
-    		digits.add(grid[rowIndx][i]);
-    	}
-    	
-    	Collections.sort(digits);
-    	
-    	return Arrays.equals(digits.toArray(),expectedDigits);
-    }
-    
-    private static boolean checkColumn(String[][] grid, int colIndx) {
-    	String[] expectedDigits = {"1","2","3","4","5","6","7","8","9" };
-    	
-    	ArrayList<String> digits = new ArrayList<String>();
-    	
-    	for(int i = 0; i < 9; i++) {
-    		digits.add(grid[i][colIndx]);
-    	}
-    	
-    	return false;
-    }
+	private static boolean checkRowOrColumn(String [][] grid, int indx,
+			boolean checkRow) {
+		
+		String[] expectedDigits = {"1","2","3","4","5","6","7","8","9" };
+		ArrayList<String> digits = new ArrayList<String>();
+		
+		for(int i = 0; i < 9; i++) {
+			String toAdd = checkRow ? grid[indx][i] : grid[i][indx];
+			digits.add(toAdd);
+		}
+		
+		Collections.sort(digits);
+		
+		return Arrays.equals(digits.toArray(),expectedDigits);
+	}
 	
 	private static boolean checkContainsOnlyDigits1To9(String candidateSolution) {
 		String digits = "123456789";

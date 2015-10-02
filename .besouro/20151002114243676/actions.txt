@@ -252,3 +252,15 @@ RefactoringAction 1443780844099 SudokuVerifier.java RENAME checkColumn()=>static
 EditAction 1443780848490 SudokuVerifier.java 2533 7 23 0
 EditAction 1443780857895 SudokuVerifier.java 2663 7 25 0
 EditAction 1443780915700 SudokuVerifier.java 2750 7 26 0
+RefactoringAction 1443780944837 SudokuVerifier.java ADD static boolean checkRowOrColumn() METHOD
+RefactoringAction 1443780950853 SudokuVerifier.java RENAME checkRowOrColumn()=>static boolean checkRowOrColumn(String METHOD
+RefactoringAction 1443780963915 SudokuVerifier.java RENAME checkRowOrColumn(String=>static boolean checkRowOrColumn(String METHOD
+CompilationAction 1443781077838 SudokuVerifier.java
+RefactoringAction 1443781094458 SudokuVerifier.java REMOVE checkColumn(String METHOD
+RefactoringAction 1443781094459 SudokuVerifier.java REMOVE checkRow(String METHOD
+CompilationAction 1443781097663 SudokuVerifier.java
+CompilationAction 1443781122855 SudokuVerifier.java
+UnitTestCaseAction 1443781131600 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443781131600 TestSudokuVerifier OK
+RefactoringAction 1443781226482 TestSudokuVerifier.java REMOVE testSudokuValidRows() METHOD
+EditAction 1443781380049 SudokuVerifier.java 2512 6 22 0
