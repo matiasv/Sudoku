@@ -24,7 +24,9 @@ public class SudokuVerifier {
 	}
 	
 	public static void printSudokuStr(String sudokuStr) {
-		
+		for(int i = 0; i < 81; i++) {
+			
+		}
 	}
 	
 	private static boolean checkContainsOnlyDigits1To9(String candidateSolution) {
