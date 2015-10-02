@@ -26,7 +26,7 @@ public class SudokuVerifier {
 		printSudokuStr(candidateSolution);
 		
 		if(!checkRows(sudokuGrid)) {
-			
+			return R3_VIOLATION;
 		}
 		
 		// returns 0 if the candidate solution is correct
