@@ -58,7 +58,9 @@ public class SudokuVerifier {
 		
 		//go through all rows
 		for(int i = 0; i < 9; i++) {
-			
+			for(int j = 0; j < 9; i++) {
+				
+			}
 		}
 	}
 	
