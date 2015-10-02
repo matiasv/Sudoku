@@ -78,6 +78,17 @@ public class TestSudokuVerifier extends TestCase {
 		
 		int res = verifier.verify(invalidRows1);	
 		this.assertEquals(res, SudokuVerifier.R3_VIOLATION);
+		
+		String invalidRows2 = ""
+			    + "123456789"
+			    + "222222222"
+			    + "333333333"
+			    + "444444444"
+			    + "555555555"
+			    + "666666666"
+			    + "777777777"
+			    + "888888888"
+			    + "999999999";
 	}
 
 }
