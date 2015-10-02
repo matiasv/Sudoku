@@ -50,6 +50,7 @@ public class TestSudokuVerifier extends TestCase {
 				+ "123456789" + "123456789}" + "a2345678";
 		
 		int res = verifier.verify(sudokuStr);
+		assertEquals(res,SudokuVerifier.R1_VIOLATION);
 	}
 
 }
