@@ -40,6 +40,8 @@ public class TestSudokuVerifier extends TestCase {
 				+ "123456789" + "123456789" + "1234567891";
 		
 		res = verifier.verify(sudokuStrLen80);
+		
+		assertEquals(res,SudokuVerifier.R1_VIOLATION);
 	}
 
 }
