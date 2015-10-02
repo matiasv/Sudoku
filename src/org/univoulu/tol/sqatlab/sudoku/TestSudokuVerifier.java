@@ -27,8 +27,10 @@ public class TestSudokuVerifier extends TestCase {
 		res = verifier.verify(empty);
 		assertEquals(res,0);
 		
-		String sudokuStrLen80 = "123456789 123456789 123456789 123456789 123456789 123456789 "
+		String sudokuStrLen80 = "123456789123456789123456789123456789123456789123456789 "
 		+ "123456789" + "123456789" + "12345678";
+		
+		res = verifier.verify(sudokuStrLen80);
 	}
 
 }
