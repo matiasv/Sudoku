@@ -85,7 +85,9 @@ public class SudokuVerifier {
     private static boolean checkRow(String[][] grid,int rowIndx) {
     	ArrayList<Character> digits = new ArrayList<Character>();
     	
-    	
+    	for(int i = 0; i < 9; i++) {
+    		
+    	}
     	
     	return false;
     }

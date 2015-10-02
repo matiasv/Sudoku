@@ -208,3 +208,4 @@ RefactoringAction 1443780153399 SudokuVerifier.java RENAME extractRow(String=>st
 RefactoringAction 1443780156421 SudokuVerifier.java RENAME b(String=>static boolean checkRow(String METHOD
 RefactoringAction 1443780194942 SudokuVerifier.java ADD import java.util.ArrayList IMPORT
 EditAction 1443780236590 SudokuVerifier.java 2361 6 20 0
+EditAction 1443780277346 SudokuVerifier.java 2405 6 21 0
