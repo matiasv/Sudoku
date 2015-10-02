@@ -269,3 +269,4 @@ RefactoringAction 1443781399090 SudokuVerifier.java RENAME checkCols=>static boo
 EditAction 1443781404532 SudokuVerifier.java 2583 7 22 0
 CompilationAction 1443781404803 SudokuVerifier.java
 EditAction 1443781423528 SudokuVerifier.java 2632 7 24 0
+EditAction 1443781446698 SudokuVerifier.java 2698 7 24 0

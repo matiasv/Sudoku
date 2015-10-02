@@ -66,7 +66,9 @@ public class SudokuVerifier {
 
 	private static boolean checkCols(String[][] sudokuGrid) {
 		for (int i = 0; i < 9; i++) {
-			
+			if(!checkRowOrColumn(sudokuGrid,i,false)) {
+				return false;
+			}
 		}
 
 		return false;
@@ -74,7 +76,6 @@ public class SudokuVerifier {
 
 	private static boolean checkRows(String[][] sudokuGrid) {
 		for (int i = 0; i < 9; i++) {
-
 			if (!checkRowOrColumn(sudokuGrid, i, true)) {
 				return false;
 			}
