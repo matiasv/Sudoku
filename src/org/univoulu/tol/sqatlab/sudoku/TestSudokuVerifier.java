@@ -56,6 +56,8 @@ public class TestSudokuVerifier extends TestCase {
 				+ "123456789" + "123456789" + "120456789";
 		
 		assertEquals(invalidStr2.length(),81);
+		
+		res = verifier.verify(invalidStr2);
 	}
 
 }
