@@ -150,3 +150,7 @@ UnitTestCaseAction 1443778701407 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443778701407 TestSudokuVerifier FAIL
 RefactoringAction 1443778756810 SudokuVerifier.java ADD void checkRows(String) METHOD
 EditAction 1443778776567 SudokuVerifier.java 1326 4 9 0
+RefactoringAction 1443778845571 SudokuVerifier.java ADD String FIELD
+RefactoringAction 1443778850583 SudokuVerifier.java RENAME convert=>String METHOD
+RefactoringAction 1443778855096 SudokuVerifier.java RENAME convertToSudokuGrid()=>String METHOD
+EditAction 1443778872247 SudokuVerifier.java 1489 5 11 0

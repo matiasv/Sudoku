@@ -20,6 +20,8 @@ public class SudokuVerifier {
 			return R1_VIOLATION;
 		}
 		
+		String[][] sudokuGrid = convertToSudokuGrid(candidateSolution);
+		
 		printSudokuStr(candidateSolution);
 		// returns 0 if the candidate solution is correct
 		return VALID;
@@ -37,6 +39,10 @@ public class SudokuVerifier {
 				System.out.printf("%s","\n");
 			}
 		}
+	}
+	
+	private String[][] convertToSudokuGrid(String candidateSolution) {
+		return null;
 	}
 	
 	private void checkRows(String candidateSolution) {
